@@ -1,0 +1,9 @@
+spring:
+ datasource:
+    url: jdbc:h2:mem:jeep;model=MYSQL
+
+
+logging:
+ level:
+   root: warn
+   '[com.promineotech]': debug
